@@ -1,5 +1,5 @@
 # LiteFlowNet2
-This repository (<strong>https://github.com/twhui/LiteFlowNet2</strong>) is the offical release of <strong>LiteFlowNet2</strong> for my paper Learning Optical Flow Estimation by Revisiting Data Fidelity and Regularization in Variational Methods. 
+This repository (<strong>https://github.com/twhui/LiteFlowNet2</strong>) is the offical release of <strong>LiteFlowNet2</strong> for my paper A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization. 
 
 LiteFlowNet2, another lightweight convolutional network, is evolved from our earlier work in CVPR 2018 (<strong>https://github.com/twhui/LiteFlowNet</strong>) to better address the problem of optical flow estimation by improving flow accuracy and computation time.
 
@@ -8,7 +8,7 @@ All code and other materials (including but not limited to the paper, figures, a
 
 <pre><code>@InProceedings{hui19liteflownet2,    
  author = {Tak-Wai Hui and Xiaoou Tang and Chen Change Loy},    
- title = {Learning Optical Flow Estimation by Revisiting Data Fidelity and Regularization in Variational Methods},       
+ title = {A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization},       
  year = {2019},    
  url = {http://mmlab.ie.cuhk.edu.hk/projects/LiteFlowNet/} 
 }</code></pre>
