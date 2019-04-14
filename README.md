@@ -29,7 +29,7 @@ LiteFlowNet2, another lightweight convolutional network, is evolved from our ear
 <td align="center"><strong>3.45</strong></td>
 <td align="center"><strong>4.60</strong></td>
 <td align="center">3.36%</td>
-<td align="center"><strong>7.88%</strong> / <strong>7.72%</strong></td>
+<td align="center">7.88% / <strong>7.72%</strong></td>
 <td align="center">8.75</td> 
 <td align="center"><strong>40</strong></td>
 </tr> 
