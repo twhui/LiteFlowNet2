@@ -13,7 +13,7 @@ LiteFlowNet2, another lightweight convolutional network, is evolved from our ear
 <th align="center">KITTI12 Testing Set (Out-Noc)</th>
 <th align="center">KITTI15 Testing Set (Fl-all)</th>
 <th align="center">Model Size (M)</th> 
-<th align="center">Runtime (ms) GTX 1080</th> 
+<th align="center">Runtime* (ms) GTX 1080</th> 
 </tr>
 <tr>
 <td align="center">FlowNet2 (CVPR17)</td>
@@ -43,6 +43,8 @@ LiteFlowNet2, another lightweight convolutional network, is evolved from our ear
 <td align="center"><strong>40</strong></td>
 </tr>    
 </tbody></table>
+
+Note: *Runtime is averaged over 100 runs for a Sintel's image pair of size 1024 × 436. 
 
 # License and Citation 
 All code and other materials (including but not limited to the paper, figures, and tables) are provided for research purposes only and without any warranty. Any commercial use requires our consent. When using any parts of the code package or the paper (<i>A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization</i>) in your work, please cite the following paper:
