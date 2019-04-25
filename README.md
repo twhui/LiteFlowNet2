@@ -47,13 +47,21 @@ LiteFlowNet2, another lightweight convolutional network, is evolved from our ear
 Note: *Runtime is averaged over 100 runs for a Sintel's image pair of size 1024 × 436. 
 
 # License and Citation 
-All code and other materials (including but not limited to the paper, figures, and tables) are provided for research purposes only and without any warranty. Any commercial use requires our consent. When using any parts of the code package or the paper (<i>A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization</i>) in your work, please cite the following paper:
+All code and other materials (including but not limited to the paper, figures, and tables) are provided for research purposes only and without any warranty. Any commercial use requires our consent. When using any parts of the code package or the paper (<i>A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization</i>) in your work, please cite the following papers:
 
 <pre><code>@InProceedings{hui19liteflownet2,    
  author = {Tak-Wai Hui and Xiaoou Tang and Chen Change Loy},    
  title = {A {L}ightweight {O}ptical {F}low {CNN} - {R}evisiting {D}ata {F}idelity and {R}egularization}, 
  journal = {arXiv preprint arXiv:1903.07414},
  year = {2019},    
+ url = {http://mmlab.ie.cuhk.edu.hk/projects/LiteFlowNet/} 
+}</code></pre>
+
+<pre><code>@InProceedings{hui18liteflownet,    
+ author = {Tak-Wai Hui and Xiaoou Tang and Chen Change Loy},    
+ title = {LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation},    
+ booktitle  = {Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},    
+ year = {2018},    
  url = {http://mmlab.ie.cuhk.edu.hk/projects/LiteFlowNet/} 
 }</code></pre>
 
