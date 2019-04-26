@@ -10,8 +10,8 @@ LiteFlowNet2, another lightweight convolutional network, is evolved from our ear
 <th align="center"></th>
 <th align="center">Sintel Clean Testing Set</th>
 <th align="center">Sintel Final Testing Set</th>
-<th align="center">KITTI12 <div>Testing Set</div> (Out-Noc)</th>
-<th align="center">KITTI15 <div>Testing Set</div> (Fl-fg / Fl-all)</th>
+<th align="center">KITTI12 Testing Set (Out-Noc)</th>
+<th align="center">KITTI15 Testing Set (Fl-fg / Fl-all)</th>
 <th align="center">Model Size (M)</th> 
 <th align="center">Runtime* (ms) GTX 1080</th> 
 </tr>
