@@ -11,7 +11,7 @@ LiteFlowNet2, another lightweight convolutional network, is evolved from our ear
 <th align="center">Sintel Clean Testing Set</th>
 <th align="center">Sintel Final Testing Set</th>
 <th align="center">KITTI12 Testing Set (Out-Noc)</th>
-<th align="center">KITTI15 Testing Set (Fl-fg / Fl-all)</th>
+<th align="center">KITTI15 Testing Set (Fl-all)</th>
 <th align="center">Model Size (M)</th> 
 <th align="center">Runtime* (ms) GTX 1080</th> 
 </tr>
@@ -20,7 +20,7 @@ LiteFlowNet2, another lightweight convolutional network, is evolved from our ear
 <td align="center">4.16</td>
 <td align="center">5.74</td>
 <td align="center">4.82%</td>
-<td align="center">8.75% / 10.41%</td>
+<td align="center">10.41%</td>
 <td align="center">162</td>
 <td align="center">121</td>
 </tr> 
@@ -29,7 +29,7 @@ LiteFlowNet2, another lightweight convolutional network, is evolved from our ear
 <td align="center"><strong>3.45</strong></td>
 <td align="center"><strong>4.60</strong></td>
 <td align="center">3.36%</td>
-<td align="center">7.88% / <strong>7.72%</strong></td>
+<td align="center">7.72%
 <td align="center">8.75</td> 
 <td align="center"><strong>40</strong></td>
 </tr> 
@@ -37,8 +37,8 @@ LiteFlowNet2, another lightweight convolutional network, is evolved from our ear
 <td align="center"><strong>LiteFlowNet2</strong></td>
 <td align="center"><strong>3.45</strong></td>
 <td align="center">4.90</td>
-<td align="center"><strong>2.72%</strong></td>
-<td align="center"><strong>7.20%</strong> / <strong>7.74%</strong></td>
+<td align="center"><strong>2.63%</strong></td>
+<td align="center"><strong>7.62%</strong></td>
 <td align="center"><strong>6.42</strong></td>
 <td align="center"><strong>40</strong></td>
 </tr>    
