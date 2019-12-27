@@ -1,7 +1,7 @@
 # LiteFlowNet2
 This repository (<strong>https://github.com/twhui/LiteFlowNet2</strong>) is the offical release of <strong>LiteFlowNet2</strong> for my paper <a href="https://arxiv.org/abs/1903.07414.pdf"><strong>A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization</strong></a>. 
 
-LiteFlowNet2, another lightweight convolutional network, is evolved from our earlier work in CVPR 2018 (<strong>https://github.com/twhui/LiteFlowNet</strong>) to better address the problem of optical flow estimation by improving flow accuracy and computation time. Comparing to our earlier work, LiteFlowNet2 improves the optical flow accuracy on Sintel clean pass by 24%, Sintel final pass by 8.9%, KITTI 2012 by 19.6%, and KITTI 2015 by 18.8%. Its runtime is 2.2 times faster!
+LiteFlowNet2, another lightweight convolutional network, is evolved from our earlier work in CVPR 2018 (<strong>https://github.com/twhui/LiteFlowNet</strong>) to better address the problem of optical flow estimation by improving flow accuracy and computation time. Comparing to our earlier work, LiteFlowNet2 improves the optical flow accuracy on Sintel clean pass by 23.3%, Sintel final pass by 12.8%, KITTI 2012 by 19.6%, and KITTI 2015 by 18.8%. Its runtime is 2.2 times faster!
 
 </ul>
 <table>
@@ -35,8 +35,8 @@ LiteFlowNet2, another lightweight convolutional network, is evolved from our ear
 </tr> 
 <tr>
 <td align="center"><strong>LiteFlowNet2</strong></td>
-<td align="center"><strong>3.45</strong></td>
-<td align="center">4.90</td>
+<td align="center"><strong>3.48</strong></td>
+<td align="center"><strong>4.69</strong></td>
 <td align="center"><strong>2.63%</strong></td>
 <td align="center"><strong>7.62%</strong></td>
 <td align="center"><strong>6.42</strong></td>
