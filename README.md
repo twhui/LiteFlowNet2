@@ -65,3 +65,24 @@ This software and associated documentation files (the "Software"), and the resea
  pages = {8981--8989},
  url = {http://mmlab.ie.cuhk.edu.hk/projects/LiteFlowNet/} 
 }</code></pre>
+
+# Trained models	
+The trained models (<code>LiteFlowNet2-ft-sintel</code>, <code>LiteFlowNet2-ft-kitti</code>) are available in the folder <code>/models/trained</code>. Untar the files to the same folder before you use it.
+
+<code>LiteFlowNet2-ft-sintel</code>: Model used for Sintel benchmark.
+
+<code>LiteFlowNet2-ft-kitti</code>: Model used for KITTI benchmark.
+
+# Testing 
+1. Open the testing folder
+<pre><code>$ cd LiteFlowNet2/models/testing</pre></code>
+
+2. Create a soft link in the folder <code>/testing</code>
+<pre><code>$ ln -s ../../build/tools bin</code></pre>
+
+3. Replace <code>MODE</code> in <code>./test_MODE.py</code> to <code>batch</code> if all the images has the same resolution (e.g. Sintel dataset), otherwise replace it to <code>iter</code> (e.g. KITTI dataset).
+
+4. Replace <code>MODEL</code> in line 10 (<code>cnn_model = 'MODEL'</code>) of <code>test_MODE.py</code> to one of the trained models (e.g. <code>LiteFlowNet2-ft-sintel</code>).
+
+5. Run the testing script. Flow fields (<code>MODEL</code>-0000000.flo, <code>MODEL</code>-0000001.flo, ... etc) are stored in the folder <code>/testing/results</code> having the same order as the image pair sequence. 
+<pre><code>$ test_MODE.py img1_pathList.txt img2_pathList.txt results</code></pre>
