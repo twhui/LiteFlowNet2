@@ -34,7 +34,7 @@ LiteFlowNet2, another lightweight convolutional network, is evolved from our ear
 <td align="center"><strong>40</strong></td>
 </tr> 
 <tr>
-<td align="center"><strong>LiteFlowNet2</strong></td>
+<td align="center"><strong>LiteFlowNet2 (TPAMI)</strong></td>
 <td align="center"><strong>3.48</strong></td>
 <td align="center"><strong>4.69</strong></td>
 <td align="center"><strong>2.63%</strong></td>
@@ -65,6 +65,12 @@ This software and associated documentation files (the "Software"), and the resea
  pages = {8981--8989},
  url = {http://mmlab.ie.cuhk.edu.hk/projects/LiteFlowNet/} 
 }</code></pre>
+
+# Prerequisite and Compiling
+LiteFlowNet2 uses the same Caffe package as LiteFlowNet. Please refer to the details in <a href="https://github.com/twhui/LiteFlowNet#Prerequisite"> LiteFlowNet GitHub repository</a>.
+
+# Training
+Please refer to the training steps in <a href="https://github.com/twhui/LiteFlowNet#Training"> LiteFlowNet GitHub repository</a> and adopt the training prtocols in <a href="https://arxiv.org/abs/1903.07414.pdf"> LiteFlowNet2 paper</a>.
 
 # Trained models	
 The trained models (<code>LiteFlowNet2-ft-sintel</code>, <code>LiteFlowNet2-ft-kitti</code>) are available in the folder <code>/models/trained</code>. Untar the files to the same folder before you use it.
