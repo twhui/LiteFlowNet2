@@ -1,5 +1,5 @@
 # LiteFlowNet2
-This repository (<strong>https://github.com/twhui/LiteFlowNet2</strong>) is the offical release of <strong>LiteFlowNet2</strong> for my paper <a href="https://arxiv.org/abs/1903.07414.pdf"><strong>A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization</strong></a>. 
+This repository (<strong>https://github.com/twhui/LiteFlowNet2</strong>) is the offical release of <strong>LiteFlowNet2</strong> for my paper <a href="https://arxiv.org/abs/1903.07414.pdf"><strong>A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization</strong></a> in TPAMI 2020. 
 
 LiteFlowNet2, another lightweight convolutional network, is evolved from our earlier work in CVPR 2018 (<strong>https://github.com/twhui/LiteFlowNet</strong>) to better address the problem of optical flow estimation by improving flow accuracy and computation time. Comparing to our earlier work, LiteFlowNet2 improves the optical flow accuracy on Sintel clean pass by 23.3%, Sintel final pass by 12.8%, KITTI 2012 by 19.6%, and KITTI 2015 by 18.8%. Its runtime is 2.2 times faster!
 
@@ -49,11 +49,11 @@ Note: *Runtime is averaged over 100 runs for a Sintel's image pair of size 1024 
 # License and Citation 
 This software and associated documentation files (the "Software"), and the research paper (A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization) including but not limited to the figures, and tables (the "Paper") are provided for research purposes only and without any warranty. Any commercial use requires my consent. When using any parts of the Software or the Paper in your work, please cite the following paper:
 
-<pre><code>@InProceedings{hui19liteflownet2,    
+<pre><code>@InProceedings{hui20liteflownet2,    
  author = {Tak-Wai Hui and Xiaoou Tang and Chen Change Loy},    
  title = {A {L}ightweight {O}ptical {F}low {CNN} - {R}evisiting {D}ata {F}idelity and {R}egularization}, 
- journal = {arXiv preprint arXiv:1903.07414},
- year = {2019},    
+ journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+ year = {2020},    
  url = {http://mmlab.ie.cuhk.edu.hk/projects/LiteFlowNet/} 
 }</code></pre>
 
@@ -65,5 +65,3 @@ This software and associated documentation files (the "Software"), and the resea
  pages = {8981--8989},
  url = {http://mmlab.ie.cuhk.edu.hk/projects/LiteFlowNet/} 
 }</code></pre>
-
-# We will release the trained models and codes soon.
