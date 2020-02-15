@@ -10,8 +10,7 @@ of the Software or the Paper in your work, please cite the following papers:
  author = {Tak-Wai Hui and Xiaoou Tang and Chen Change Loy},
  title = {A {L}ightweight {O}ptical {F}low {CNN} - {R}evisiting {D}ata {F}idelity and {R}egularization},
  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
- year = {2020},
- url = {http://mmlab.ie.cuhk.edu.hk/projects/LiteFlowNet/}
+ year = {2020}
 }
 
 @InProceedings{hui18liteflownet,
@@ -19,7 +18,7 @@ of the Software or the Paper in your work, please cite the following papers:
  title = {LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation},
  booktitle  = {Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
  year = {2018},
- pages = {8981--8989},
+ pages = {8981--8989}
 }
 
 The above copyright notice and this permission notice shall be included in all copies or
