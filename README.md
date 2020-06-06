@@ -1,5 +1,5 @@
 # LiteFlowNet2
-This repository (<strong>https://github.com/twhui/LiteFlowNet2</strong>) is the offical release of <strong>LiteFlowNet2</strong> for my paper <a href="https://arxiv.org/abs/1903.07414.pdf"><strong>A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization</strong></a> in TPAMI 2020. 
+This repository (<strong>https://github.com/twhui/LiteFlowNet2</strong>) is the offical release of <strong>LiteFlowNet2</strong> for my paper <strong>A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization</strong> in TPAMI 2020 ( https://ieeexplore.ieee.org/document/9018073). The arXiv pre-print is available <a href="https://arxiv.org/abs/1903.07414.pdf"> here</a>.
 
 LiteFlowNet2, another lightweight convolutional network, is evolved from our earlier work in CVPR 2018 (<strong>https://github.com/twhui/LiteFlowNet</strong>) to better address the problem of optical flow estimation by improving flow accuracy and computation time. Comparing to our earlier work, LiteFlowNet2 improves the optical flow accuracy on Sintel clean pass by 23.3%, Sintel final pass by 12.8%, KITTI 2012 by 19.6%, and KITTI 2015 by 18.8%. Its runtime is 2.2 times faster!
 
@@ -92,3 +92,6 @@ The trained models (<code>LiteFlowNet2-ft-sintel</code>, <code>LiteFlowNet2-ft-k
 
 5. Run the testing script. Flow fields (<code>MODEL</code>-0000000.flo, <code>MODEL</code>-0000001.flo, ... etc) are stored in the folder <code>/testing/results</code> having the same order as the image pair sequence. 
 <pre><code>$ test_MODE.py img1_pathList.txt img2_pathList.txt results</code></pre>
+
+# Reimplementation in TensorFlow
+A TensorFlow-based reimplementation of LiteFlowNet2 is also available at https://github.com/rogerhcheng/LiteFlowNet2-TF2.
