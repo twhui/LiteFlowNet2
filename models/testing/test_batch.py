@@ -135,7 +135,7 @@ with open('tmp/deploy.prototxt', "w") as tfile:
 # Run caffe
 
 args = [caffe_bin, 'test', '-model', 'tmp/deploy.prototxt',
-        '-weights', './LiteFlowNet2-ft-sintel.caffemodel',
+        '-weights', './MODEL.caffemodel',
         '-iterations', str(list_length),
         '-gpu', '0']
 
