@@ -70,15 +70,6 @@ if not (os.path.isfile(caffe_bin) and os.path.isfile(img_size_bin)):
     print('Caffe tool binaries not found. Did you compile caffe with tools (make all tools)?')
     sys.exit(1)
 
-if len(sys.argv)-1 != 3:
-    print("Use this tool to test FlowNet on images\n"
-          "Usage for single image pair:\n"
-          "    ./demo_flownets.py IMAGE1 IMAGE2 OUTPUT_FOLDER\n"
-          "\n"
-          "Usage for a pair of image lists (must end with .txt):\n"
-          "    ./demo_flownets.py LIST1.TXT LIST2.TXT OUTPUT_FOLDER\n")
-    sys.exit(1)
-
 img_files = sys.argv[1:]
 print("Image files: " + str(img_files))
 
@@ -142,7 +133,7 @@ for idx in reversed(range(len(images[0]))):
 
     # Run caffe
     args = [caffe_bin, 'test', '-model', 'tmp/deploy.prototxt',
-            '-weights', './LiteFlowNet2-ft-sintel.caffemodel',
+            '-weights', './MODEL.caffemodel',
             '-iterations', str(1),
             '-gpu', '0']
 
