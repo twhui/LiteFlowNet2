@@ -114,7 +114,7 @@ of the flow field. LiteFlowNet3 not only achieves promising results on public be
 Note: *Runtime is averaged over 100 runs for a Sintel's image pair of size 1024 × 436.
 
 # License and Citation 
-This software and associated documentation files (the "Software"), and the research paper (A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization) including but not limited to the figures, and tables (the "Paper") are provided for research purposes only and without any warranty. Any commercial use requires my consent. When using any parts of the Software or the Paper in your work, please cite the following paper:
+This software and associated documentation files (the "Software"), and the research paper (A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization) including but not limited to the figures, and tables (the "Paper") are provided for academic research purposes only and without any warranty. Any commercial use requires my consent. When using any parts of the Software or the Paper in your work, please cite the following paper:
 
 <pre><code>@InProceedings{hui20liteflownet2,    
  author = {Tak-Wai Hui and Xiaoou Tang and Chen Change Loy},    
